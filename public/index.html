@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" >
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000" >
+  <!-- This link points to the web app manifest file which provides metadata about the web application. -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <!-- These links load different CSS stylesheets for the web application. -->
+  <!-- The 'default.css' file contains the default styles for the app. -->
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/default.css">
+  <!-- The 'layout.css' file contains styles related to the layout of the web application. -->
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/layout.css">
+  <!-- The 'media-queries.css' file contains styles specific to different media (screen sizes). -->
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/media-queries.css">
+  <!-- The 'magnific-popup.css' file contains styles for the Magnific Popup library used in the app. -->
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/magnific-popup.css">
+  
+  <!-- THIS IS MY SITE'S TITLE -->
+  <title>Porsche Herskorn | Full Stack Developer</title>
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+
+  <!-- The 'root' div is the container where the React app will be rendered. -->
+  <div id="root"></div>
+
+  <!-- The 'particles-js' div is the container for the particle animation effect. -->
+  <div id="particles-js"></div>
+
+  <!-- These scripts load jQuery library for various functionalities. -->
+  <!-- If jQuery is already available, it will use the CDN link; otherwise, it will load the local version. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+
+  <!-- These scripts provide additional functionality for jQuery and other custom scripts. -->
+  <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/waypoints.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script src="js/magnific-popup.js"></script>
+  <script src="js/init.js"></script>
+
+  <!-- The 'particles.js' script loads the particles animation library. -->
+  <script src="particles.js"></script>
+
+  <!-- This script loads the EmailJS library and initializes it with the given user ID. -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+  <script type="text/javascript">
+      (function () {
+        emailjs.init("user_F8g6m161066ebOv4Eg8c");
+      })();
+  </script>
+
+</body>
+
+</html>
