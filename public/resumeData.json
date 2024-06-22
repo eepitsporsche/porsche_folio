@@ -1,0 +1,150 @@
+{
+    "main": {
+      "name": "Porsche Herskorn",
+      "occupation": "Full-Stack Web Developer",
+      "description": "",
+      "image": "porsche_profile_img.jpeg",
+      "bio": "My name is Porsche. I'm a new to the coding world and currently seeking a full-time junior developer position.",
+      "contactmessage": "Get in touch with me for further details.",
+      "email": "herskorn@gmail.com",
+      "phone": "(408) 960-5729",
+      "address": {
+        "city": "Santa Cruz",
+        "state": "CA"
+      },
+      "website": "https://eepitsporsche.github.io/eepitsporsche/",
+      "resumedownload": "",
+      "social": [
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/porsche-herskorn/",
+            "className": "fa fa-linkedin"
+        },
+        {
+            "name": "instagram",
+            "url": "https://www.instagram.com/eepitsporsche/",
+            "className": "fa fa-instagram"
+        },
+        {
+            "name": "github",
+            "url": "https://github.com/eepitsporsche",
+            "className": "fa fa-github"
+        }
+      ]
+    },
+    "resume": {
+      "skillmessage": "Download my Resume for more details on my experience.",
+      "education": [
+        {
+            "school": "UC Berkeley Extension",
+            "degree": "Diploma in Full Stack Web Development",
+            "graduated": "July, 2024",
+            "description": "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS."
+        },
+        {
+            "school": "San Jose City College",
+            "degree": "Diploma in Dental Assisting",
+            "graduated": "February, 2014"
+        },
+        {
+            "school": "Abraham Lincoln High School",
+            "degree": "High School Diploma",
+            "graduated": "June, 2008"
+        }
+      ],
+      "work": [
+        {
+            "company": "Dr. Gallez Periodontics and Implantology",
+            "title": "Registered Dental Assistant",
+            "years": "2022 - Present",
+            "description": "Support a team of 3 dentists by preparing operation sites, assisting with surgical procedures, and maintaining instrument sterilization."
+        }
+      ],
+      "skills": [
+        {
+            "name": "ReactJs",
+            "level": "70%"
+        },
+        {
+            "name": "Javascript",
+            "level": "85%"
+        },
+        {
+            "name": "Git",
+            "level": "90%"
+        },
+        {
+            "name": "MySQL DB",
+            "level": "55%"
+        },
+        {
+            "name": "MongoDB",
+            "level": "75%"
+        },
+        {
+            "name": "Bootsrap",
+            "level": "70%"
+        },
+        {
+            "name": "HTML5",
+            "level": "85%"
+        },
+        {
+            "name": "CSS",
+            "level": "88%"
+        }
+      ]
+    },
+    "portfolio": {
+      "projects": [
+        {
+            "title": "Coming Soon",
+            "category": "Coming Soon is a single-page application built using the MERN stack (MongoDB, Express, React, Node.js) that empowers users to create, manage, and attend events effortlessly.",
+            "image": "coming_soon.png",
+            "url": ""
+        },
+        {
+            "title": "Parks Planner",
+            "category": "a server-side API driven web app to provide users with a list of national parks of a selected state and trails in the the selected area. (HTML, CSS, JavaScript, jQuery, Bootstrap, API)",
+            "image": "parks_planner",
+            "url": "https://adamh1223.github.io/parks-planner/"
+        },
+        {
+            "title": "Personal Portfolio v1",
+            "category": "A portfolio . (html, css, github pages)",
+            "image": "portfolio_v1.jpeg",
+            "url": "https://eepitsporsche.github.io/porsche_herskorn_portfolio_webpage/"
+        },
+        {
+            "title": "Weather Dashboard",
+            "category": "View the 5-day forecast of a selected city via dynamically updated HTML and CSS. (HTML, CSS, JavScript, Bootstrap, API)",
+            "image": "5_day_forecast_weather_widget.gif",
+            "url": "https://eepitsporsche.github.io/5_day_forecast_weather_widget/"
+        },
+        {
+            "title": "Identifying Hex Codes with Regex",
+            "category": "A comprehensive guide to regular expressions for identifying hex codes, deployed via GitHub's Gist.",
+            "image": "hexcode_regex_gist",
+            "url": "https://gist.github.com/eepitsporsche/7da046b5277228a99fd4b8d4520529dd"
+        },
+        {
+            "title": "Dev Gab",
+            "category": "A content-management-style (CMS) blog site where developers in the tech industry can post articles in areas relating to the tech industry. (HTML, CSS, HandleBars.js, MySQL2)",
+            "image": "dev_gab_demo.gif",
+            "url": "https://github.com/eepitsporsche/dev_gab"
+        }
+      ]
+    },
+    "testimonials": {
+      "testimonials": [
+        {
+            "text": "Porsche knew exactly what we wanted! Our website looks amazing and the turn around time was really quick.",
+            "user": "Inertia Legal"
+        },
+        {
+            "text": "Thanks to Porsche, most of our customers visit our store via Social Media.",
+            "user": "Iconic Furniture"
+        }
+      ]
+    }
+  }
