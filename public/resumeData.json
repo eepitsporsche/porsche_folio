@@ -2,15 +2,15 @@
     "main": {
       "name": "Porsche Herskorn",
       "occupation": "Full-Stack Web Developer",
-      "description": "",
+      "description": "UC Berkeley Extension Student and Aspiring Full-Stack Web Developer",
       "image": "porsche_profile_img.jpeg",
-      "bio": "My name is Porsche. I'm a new to the coding world and currently seeking a full-time junior developer position.",
+      "bio": "Hello, my name is Porsche Carrera Herskorn. I was born in Wisconsin and lived in Florida as a child before moving to California. Photography is a passion of mine and nature is my favorite subject to photograph. My current industry is dentistry, where I am a Registered Dental Assistant. After ten years in my field, I am excited to expand my knowledge and begin a new career path in webpage developement. I am new to the coding world and currently seeking a full-time position as a junior developer.",
       "contactmessage": "Get in touch with me for further details.",
       "email": "herskorn@gmail.com",
       "phone": "(408) 960-5729",
       "address": {
         "city": "Santa Cruz",
-        "state": "CA"
+        "state": "California"
       },
       "website": "https://eepitsporsche.github.io/eepitsporsche/",
       "resumedownload": "",
@@ -39,7 +39,7 @@
             "school": "UC Berkeley Extension",
             "degree": "Diploma in Full Stack Web Development",
             "graduated": "July, 2024",
-            "description": "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS."
+            "description": "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, JavaScript, JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js, & ReactJS."
         },
         {
             "school": "San Jose City College",
@@ -57,7 +57,7 @@
             "company": "Dr. Gallez Periodontics and Implantology",
             "title": "Registered Dental Assistant",
             "years": "2022 - Present",
-            "description": "Support a team of 3 dentists by preparing operation sites, assisting with surgical procedures, and maintaining instrument sterilization."
+            "description": "Support a team of three dentists by preparing operation sites, assisting with surgical procedures, and maintaining instrument sterilization."
         }
       ],
       "skills": [
@@ -99,38 +99,38 @@
       "projects": [
         {
             "title": "Coming Soon",
-            "category": "Coming Soon is a single-page application built using the MERN stack (MongoDB, Express, React, Node.js) that empowers users to create, manage, and attend events effortlessly.",
+            "category": "Coming Soon is a single-page application built using the MERN stack (MongoDB, Express, React, Node.js) that empowers users to create and manage data effortlessly.",
             "image": "coming_soon.png",
             "url": ""
         },
         {
             "title": "Parks Planner",
             "category": "a server-side API driven web app to provide users with a list of national parks of a selected state and trails in the the selected area. (HTML, CSS, JavaScript, jQuery, Bootstrap, API)",
-            "image": "parks_planner",
+            "image": "parks_planner.png",
             "url": "https://adamh1223.github.io/parks-planner/"
         },
         {
             "title": "Personal Portfolio v1",
-            "category": "A portfolio . (html, css, github pages)",
+            "category": "A simple portfolio website. (html, css, github pages)",
             "image": "portfolio_v1.jpeg",
             "url": "https://eepitsporsche.github.io/porsche_herskorn_portfolio_webpage/"
         },
         {
             "title": "Weather Dashboard",
             "category": "View the 5-day forecast of a selected city via dynamically updated HTML and CSS. (HTML, CSS, JavScript, Bootstrap, API)",
-            "image": "5_day_forecast_weather_widget.gif",
+            "image": "5_day_forecast_weather_widget.jpeg",
             "url": "https://eepitsporsche.github.io/5_day_forecast_weather_widget/"
         },
         {
             "title": "Identifying Hex Codes with Regex",
             "category": "A comprehensive guide to regular expressions for identifying hex codes, deployed via GitHub's Gist.",
-            "image": "hexcode_regex_gist",
+            "image": "hexcode_regex_gist.png",
             "url": "https://gist.github.com/eepitsporsche/7da046b5277228a99fd4b8d4520529dd"
         },
         {
             "title": "Dev Gab",
             "category": "A content-management-style (CMS) blog site where developers in the tech industry can post articles in areas relating to the tech industry. (HTML, CSS, HandleBars.js, MySQL2)",
-            "image": "dev_gab_demo.gif",
+            "image": "dev_gab.png",
             "url": "https://github.com/eepitsporsche/dev_gab"
         }
       ]
