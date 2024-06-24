@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.png) no-repeat top center;
+   background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -218,8 +218,9 @@ ul#nav li.current a { color: #11ABB0; }
 }
 #about .profile-pic {
    position: relative;
-   width: 600px;
-   height: 400px;
+   border-radius: 105px;
+   width: 200px;
+   /* height: 400px; */
    display: flex;
    flex-direction: column;
    flex-direction: row;
@@ -509,6 +510,9 @@ ul#nav li.current a { color: #11ABB0; }
    left: 50%;
    margin-left: -15px;
    margin-top: -15px;
+}
+.portfolio-item img {
+   opacity: 0.95;
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
