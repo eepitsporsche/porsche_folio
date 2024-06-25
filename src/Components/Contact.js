@@ -27,10 +27,10 @@ const Contact = ({ data }) => {
                console.log(error.text);
                alert('Error. Could not send message.')
             });
-            
+
          var allInputs = document.querySelectorAll('input');
          allInputs.forEach(singleInput => singleInput.value = '');
-         document.getElementById("contactMessage").value = '';
+         document.getElementById("message").value = '';
       })
    }
 
@@ -57,23 +57,23 @@ const Contact = ({ data }) => {
                   <fieldset>
 
                      <div>
-                        <label htmlFor="contactName">Name <span className="required">*</span></label>
-                        <input value={name} type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={e => setName(e.target.value)} />
+                        <label htmlFor="from_name">Name <span className="required">*</span></label>
+                        <input value={name} onChange={(e) => setName(e.target.value)} type="text" defaultValue="" size="35" id="from_name" name="from_name" />
                      </div>
 
                      <div>
-                        <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                        <input value={email} type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={e => setEmail(e.target.value)} />
+                        <label htmlFor="from_email">Email <span className="required">*</span></label>
+                        <input value={email} onChange={(e) => setEmail(e.target.value)} type="text" defaultValue="" size="35" id="from_email" name="from_email" />
                      </div>
 
                      <div>
-                        <label htmlFor="contactSubject">Subject</label>
-                        <input value={subject} type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={e => setSubject(e.target.value)} />
+                        <label htmlFor="subject">Subject</label>
+                        <input value={subject} onChange={(e) => setSubject(e.target.value)} type="text" defaultValue="" size="35" id="subject" name="subject" />
                      </div>
 
                      <div>
-                        <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                        <textarea value={message} onChange={e => setMessage(e.target.value)} cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                        <label htmlFor="message">Message <span className="required">*</span></label>
+                        <textarea value={message} onChange={(e) => setMessage(e.target.value)} cols="50" rows="15" id="message" name="message"></textarea>
                      </div>
 
                      <div>
