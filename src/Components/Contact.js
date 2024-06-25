@@ -15,16 +15,23 @@ const Contact = ({ data }) => {
    //    window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
    //  }
 
-   function sendEmail(e) {
-      e.preventDefault();
+   function sendEmail() {
+      document.getElementById('contactForm').addEventListener('submit', function(e) {
+         e.preventDefault();
 
-      emailjs.sendForm('gmail', 'service_mzslu1t', e.target, 'user_F8g6m161066ebOv4Eg8cX')
-         .then((result) => {
-            console.log(result.text);
-         }, (error) => {
-            console.log(error.text);
-         });
-      e.target.reset()
+         emailjs.sendForm('service_h5j2jhh', 'template_l8rpadg', this, '-beJhokCJf-vRfshE')
+            .then((result) => {
+               console.log(result.text);
+               alert('Message sent!');
+            }, (error) => {
+               console.log(error.text);
+               alert('Error. Could not send message.')
+            });
+            
+         var allInputs = document.querySelectorAll('input');
+         allInputs.forEach(singleInput => singleInput.value = '');
+         document.getElementById("contactMessage").value = '';
+      })
    }
 
    return (
@@ -78,7 +85,7 @@ const Contact = ({ data }) => {
                   </fieldset>
                </form>
 
-               <div id="message-warning"> Error boy</div>
+               <div id="message-warning">Error!</div>
                <div id="message-success">
                   <i className="fa fa-check"></i>Your message was sent. Thank you!<br />
                </div>
