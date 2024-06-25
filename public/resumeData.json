@@ -111,19 +111,19 @@
         },
         {
             "title": "Personal Portfolio v1",
-            "category": "A simple portfolio website. (html, css, github pages)",
+            "category": "A simple portfolio website. (HTML, CSS, GitHub Pages)",
             "image": "portfolio_v1.jpeg",
             "url": "https://eepitsporsche.github.io/porsche_herskorn_portfolio_webpage/"
         },
         {
             "title": "Weather Dashboard",
-            "category": "View the 5-day forecast of a selected city via dynamically updated HTML and CSS. (HTML, CSS, JavScript, Bootstrap, API)",
+            "category": "View the 5-day forecast of a selected city via dynamically updated HTML and CSS. (HTML, CSS, JavaScript, Bootstrap, API)",
             "image": "5_day_forecast_weather_widget.jpeg",
             "url": "https://eepitsporsche.github.io/5_day_forecast_weather_widget/"
         },
         {
             "title": "Identifying Hex Codes with Regex",
-            "category": "A comprehensive guide to regular expressions for identifying hex codes, deployed via GitHub's Gist.",
+            "category": "A comprehensive guide to regular expressions for identifying hex codes, deployed via GitHub Gist.",
             "image": "hexcode_regex_gist.png",
             "url": "https://gist.github.com/eepitsporsche/7da046b5277228a99fd4b8d4520529dd"
         },
