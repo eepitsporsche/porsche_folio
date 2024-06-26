@@ -20,6 +20,19 @@
    }
 
 }
+/* screenwidth less than 1200px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+   /* Testimonials Section
+   ------------------------------------------------------------------- */
+   #testimonials .header-col h1:before {
+      font-size: 66px;
+      line-height: 66px;
+   }
+   #testimonials .slides:after {
+      font-size: 66px;
+      line-height: 66px;
+   }
 
 /* screenwidth less than 900px
 --------------------------------------------------------------------- */
@@ -65,6 +78,10 @@
    /* Testimonials Section
    ------------------------------------------------------------------- */
    #testimonials .header-col h1:before {
+      font-size: 66px;
+      line-height: 66px;
+   }
+   #testimonials .slides:after {
       font-size: 66px;
       line-height: 66px;
    }
@@ -269,6 +286,7 @@
    }
    #testimonials h1 span { display: block; }
    #testimonials .header-col h1:before { content: none; }
+   #testimonials .slides:after { content: none; }
    #testimonials blockquote { padding-bottom: 24px; }
    #testimonials blockquote p {
       font-size: 20px;
