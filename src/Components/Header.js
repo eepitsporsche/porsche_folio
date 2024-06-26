@@ -50,16 +50,18 @@ class Header extends Component {
             </nav>
 
             <div className="row banner">
-               <div className="banner-text">
-                  <h1 className="responsive-headline">{name}</h1>
-                  <h3>A {city}, {state} based<br></br> {description}.</h3>
-                  <hr />
-                  {/* <row className="social">
-                  <ul>
-                  {networks}
-                  </ul>
-               </row> */}
-               </div>
+               {/* <div class="blur_image"> */}
+                  <div className="banner-text">
+                     <h1 className="responsive-headline">{name}</h1>
+                     <h3>A {city}, {state} based<br></br> {description}</h3>
+                     <hr />
+                     {/* </div> */}
+                        {/* <row className="social">
+                        <ul>
+                        {networks}
+                        </ul>
+                     </row> */}
+                  </div>
                <div className="particle">
                   <Particles
                      params={particles}
