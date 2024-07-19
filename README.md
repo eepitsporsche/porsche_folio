@@ -27,7 +27,7 @@ The Porsche_Folio is my personal portfolio and résumé built with React. This w
 
 
 ## Usage
-Navigate the [Porsche_Folio]() page via the section links found in the header at the top of the page.
+Navigate the [Porsche_Folio](https://porsche-folio.netlify.app/) page via the section links found in the header at the top of the page.
 
 <p align="center"><img src="./public/images/porsche_herskorn_portfolio_homepage.gif" alt="Porsche Herskorn Porfolio Homepage"></p>
 
