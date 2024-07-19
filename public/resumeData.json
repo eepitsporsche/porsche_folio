@@ -94,10 +94,10 @@
     "portfolio": {
       "projects": [
         {
-            "title": "Coming Soon",
-            "category": "Coming Soon is a single-page application built using the MERN stack (MongoDB, Express, React, Node.js) that empowers users to create and manage data effortlessly.",
-            "image": "coming_soon.png",
-            "url": ""
+            "title": "Meow Market",
+            "category": "Meow Market is an e-commerce store built using the MERN stack (MongoDB, Express, React, Node.js).",
+            "image": "meow_market.png",
+            "url": "https://group-fivemeowmarket-c7eee0758978.herokuapp.com/"
         },
         {
             "title": "Parks Planner",
